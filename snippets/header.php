@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<@ set {
-		metaTitle: "@{ sitename } / @{ title }"
+		metaTitle: "@{ sitename } / @{ title | def ('404') }"
 	} @>
     <title>@{ metaTitle | stripTags }</title>
 	<@ Automad/MetaTags {
