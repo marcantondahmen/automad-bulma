@@ -7,7 +7,7 @@
 		context: @{ showPagesBelow },
 		filter: @{ ?filter },
 		search: @{ ?search },
-		sort: @{ sortPages },
+		sort: @{ sortPages | def ('date desc') },
 		template: @{ templateFilter }
 	} @>
 	<@ if @{ checkboxShowAllPagesInPagelist } or @{ ?search } @>
