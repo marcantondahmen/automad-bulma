@@ -12,7 +12,7 @@
 		<div class="column is-9">
 			<h4>@{ title }</h4>
 			@{ textContact | markdown }
-			<p><@ snippets/more.php @></p>
+			<p><@ more.php @></p>
 		</div>
 	</div>
 <@ end @>

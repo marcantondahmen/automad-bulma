@@ -15,7 +15,7 @@
 				<br />
 			<@ end @>
 			<div class="content">
-				<@ newPagelist @>
+				<@ newPagelist { excludeHidden: false } @>
 				<@ foreach in pagelist @>
 					<@ if @{ checkboxShowInFooter } @>
 						<p>
