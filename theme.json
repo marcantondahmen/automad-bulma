@@ -2,7 +2,6 @@
 	"name": "Bulma", 
 	"description": "A responsive multi-purpose theme based on the Bulma CSS framework",
 	"author": "Marc Anton Dahmen",
-	"version": "1.0.0",
 	"license": "MIT",
 	"tooltips": {
 		"appleTouchIcon": "The file to be used as Apple touch icon",
