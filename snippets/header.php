@@ -2,8 +2,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<@ set {
 		metaTitle: "@{ sitename } / @{ title | def ('404') }"
 	} @>
@@ -12,7 +10,8 @@
 		description: @{ textTeaser | stripTags },
 		ogTitle: @{ metaTitle | stripTags },
 		ogDescription: @{ textTeaser | stripTags },
-		ogImage: @{ ogImage }
+		ogImage: @{ ogImage },
+		twitterCard: 'summary_large_image'
 	} @>
 	<@ with @{ favicon } @><link href="@{ :file }" rel="shortcut icon" type="image/x-icon" /><@ end @>
 	<@ with @{ appleTouchIcon } @><link href="@{ :file }" rel="apple-touch-icon" /><@ end @>
