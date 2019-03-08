@@ -4,7 +4,7 @@ A responsive multi-purpose theme for the [Automad](https://automad.org) based on
      
 Check out the demo page [here](https://bulma.dev.automad.org).
 
-![](https://bitbucket.org/marcantondahmen/automad-bulma/raw/default/images/project_layout_2.png)
+![](https://bulma.dev.automad.org/shared/screenshot-1.png)
 
 ## Options
 
@@ -17,6 +17,8 @@ Since the theme is fully based on the Bulma framework, it is possible to use a c
 ### Styling Hero Content
 
 You can add text or HTML markup to a hero banner using the `textHero` variable. Hero banner content can be styled using Bulma elements and modifiers. Take a look at the [docs](https://bulma.io/documentation/modifiers/) to find out more about working with Bulma.
+
+![](https://bulma.dev.automad.org/shared/screenshot-2.png)
 
 ### Hero And Navbar Settings
 
