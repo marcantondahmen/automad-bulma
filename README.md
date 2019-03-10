@@ -1,8 +1,6 @@
 # Automad Bulma Theme
 
-A responsive multi-purpose theme for the [Automad](https://automad.org) based on the [Bulma](https://bulma.io) CSS framework.   
-     
-Check out the demo page [here](https://bulma.dev.automad.org).
+A responsive multi-purpose theme for the [Automad](https://automad.org) CMS based on the [Bulma](https://bulma.io) CSS framework. Check out the demo page and all available templates [here](https://bulma.dev.automad.org).
 
 ![](https://bulma.dev.automad.org/shared/screenshot-1.png)
 
@@ -32,6 +30,12 @@ There are several checkboxes to control the look of the hero section and the nav
 - `checkboxNavbarRight`: Place menu items on the right of the navbar.
 - `checkboxHideSecondLevelNavbar`: Hide the second level (dropdowns) of the navbar menu.
 
+### Search
+The search field in the navbar can be enabled by defining a page as a results page. Therefore simply enter the internal URL of one of your pages for the `urlSearchResults` variable in the **Shared Data & Settings** section of the Dashboard. Note that the selected page needs to have a template including a pagelist like *Blog* or *Portfolio*.
+
+### Navbar Action Button
+To highlight a certain action of your site you can define an internal or external URL for the `urlActionButton`. A primary button will then appear in your navbar.
+
 ### Sorting Pagelists
 
 By default, pagelists are sorted by date descending. You can change that behavior by adding a value for the `sortPages` variable on a blog or portfolio page. To define the sorting of pages in the list, you have to provide a combination of the variable to sort the pages by and a sorting order like `date desc` or `title asc`. 
@@ -43,8 +47,3 @@ You can use a regex for the `templateFilter` variable to filter a pagelist by th
 ### Open Graph Images
 
 Title and description are automatically used for open graph tags to be used as preview when sharing a page. You can also define a pattern to be used for the preview image used as the value for the `og:image` property. A good pattern would be `*.jpg, *.png, /shared/og.png`. With this pattern, the first JPG or PNG image would be used as preview image while using a file called `og.png` in the shared files section as a fallback for pages without any image.
-
----
-
-© 2018-2019 [Marc Anton Dahmen](https://marcdahmen.de)   
-Released under the MIT license
