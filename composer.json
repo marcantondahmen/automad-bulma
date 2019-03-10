@@ -1,6 +1,6 @@
 {
 	"name": "dahmen/automad-bulma",
-	"description": "A responsive multi-purpose theme for the Automad CMS based on the Bulma CSS framework",
+	"description": "A responsive multi-purpose theme for the Automad CMS based on the Bulma CSS framework.",
 	"type": "automad-package",
 	"keywords": ["theme"],
 	"authors": [
