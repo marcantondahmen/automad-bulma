@@ -30,6 +30,12 @@ There are several checkboxes to control the look of the hero section and the nav
 - `checkboxNavbarRight`: Place menu items on the right of the navbar.
 - `checkboxHideSecondLevelNavbar`: Hide the second level (dropdowns) of the navbar menu.
 
+### Slideshow Images
+
+You can use the `images` variable to define a set of images to be used in a hero section or carousel slideshow. A `*` can be used in file patterns to represent zero or more characters. Multiple patterns can be separated by a comma. A typical pattern looks like:
+
+    *.jpg, *.png, *.gif 
+
 ### Search
 The search field in the navbar can be enabled by defining a page as a results page. Therefore simply enter the internal URL of one of your pages for the `urlSearchResults` variable in the **Shared Data & Settings** section of the Dashboard. Note that the selected page needs to have a template including a pagelist like *Blog* or *Portfolio*.
 
