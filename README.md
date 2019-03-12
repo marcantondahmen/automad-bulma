@@ -12,6 +12,10 @@ There are multiple variables used by this theme for configuration. Find below a 
 
 Since the theme is fully based on the Bulma framework, it is possible to use a customized version of Bulma. You can use the `bulmaCss` variable to provide an alternative URL for the `.css` file. A custom `.css` file can simply be uploaded in the shared data section of the dashboard. You can find more information about customizing Bulma [here](https://bulma.io/documentation/customize/).
 
+### Google Analytics and Other Custom Header or Footer Items
+
+Sometimes it is required to add custom Javascript or CSS to one or more pages. This could be for example the case if you would want to add a Google Analytics tracking snippet to your site. Therefore this theme provides two variables for that purpose. The `itemsHeader` variable lets you add all kind of header items right before the closing `</head>` tag. To add any HTML or JS right before the closing `</body>` tag you can use the `itemsFooter` variable.
+
 ### Styling Hero Content
 
 You can add text or HTML markup to a hero banner using the `textHero` variable. Hero banner content can be styled using Bulma elements and modifiers. Take a look at the [docs](https://bulma.io/documentation/modifiers/) to find out more about working with Bulma.
