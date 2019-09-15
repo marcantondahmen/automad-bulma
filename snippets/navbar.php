@@ -72,7 +72,7 @@
 				<@ with @{ urlActionButton } @>
 					<div class="navbar-item">
 						<div class="buttons">
-							<a href="@{ url }" class="button is-warning">
+							<a href="@{ url }" class="button is-light">
 								@{ title }
 							</a>
 						</div>
