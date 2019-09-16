@@ -33,7 +33,7 @@
 	<@ end @>
 <@ end @>
 <@ if @{ checkboxNavbarDark } @>
-	<@ set { ":navbarColor": "is-dark" } @>
+	<@ set { ":navbarColor": "is-black" } @>
 <@ else @>
 	<@ set { ":navbarColor": "is-white" } @>
 <@ end @>
@@ -69,10 +69,11 @@
 						<@ navbarMenu @>
 					</div>
 				<@ end @>
+				<@ set { ":buttonColor": @{ actionButtonColor | def ('info') } } @>
 				<@ with @{ urlActionButton } @>
 					<div class="navbar-item">
 						<div class="buttons">
-							<a href="@{ url }" class="button is-light">
+							<a href="@{ url }" class="button is-@{ :buttonColor }">
 								@{ title }
 							</a>
 						</div>
