@@ -69,16 +69,6 @@
 						<@ navbarMenu @>
 					</div>
 				<@ end @>
-				<@ set { ":buttonColor": @{ actionButtonColor | def ('info') } } @>
-				<@ with @{ urlActionButton } @>
-					<div class="navbar-item">
-						<div class="buttons">
-							<a href="@{ url }" class="button is-@{ :buttonColor }">
-								@{ title }
-							</a>
-						</div>
-					</div>
-				<@ end @>
 				<@ if @{ urlSearchResults } @>
 					<div class="navbar-item">
 						<form action="@{ urlSearchResults }" class="control has-icons-left">
@@ -92,6 +82,16 @@
 								<i class="fas fa-search" aria-hidden="true"></i>
 							</span>
 						</form>
+					</div>
+				<@ end @>
+				<@ set { ":buttonColor": @{ actionButtonColor | def ('info') } } @>
+				<@ with @{ urlActionButton } @>
+					<div class="navbar-item">
+						<div class="buttons">
+							<a href="@{ url }" class="button is-@{ :buttonColor }">
+								@{ title }
+							</a>
+						</div>
 					</div>
 				<@ end @>
 				<@ newPagelist { type: false } @>
