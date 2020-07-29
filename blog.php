@@ -5,7 +5,7 @@
 	<@ newPagelist { 
 		filter: @{ ?filter },
 		search: @{ ?search },
-		template: @{ templateFilter | def ('post') },
+		template: @{ templateFilter },
 		sort: 'date desc'
 	} @>
 	<section class="section">

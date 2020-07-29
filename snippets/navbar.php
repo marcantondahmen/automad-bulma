@@ -84,7 +84,7 @@
 						</form>
 					</div>
 				<@ end @>
-				<@ set { ":buttonColor": @{ actionButtonColor | def ('info') } } @>
+				<@ set { ":buttonColor": @{ actionButtonColor | def ('warning') } } @>
 				<@ with @{ urlActionButton } @>
 					<div class="navbar-item">
 						<div class="buttons">
