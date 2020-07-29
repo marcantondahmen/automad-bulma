@@ -1,0 +1,15 @@
+{
+  "name": "automad-bulma",
+  "version": "1.0.0",
+  "description": "A responsive multi-purpose theme for the Automad CMS based on the Bulma CSS framework.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcantondahmen/automad-bulma.git"
+  },
+  "author": "Marc Anton Dahmen",
+  "license": "MIT",
+  "homepage": "https://github.com/marcantondahmen/automad-bulma#readme",
+  "dependencies": {
+    "bulma": "^0.9.0"
+  }
+}
