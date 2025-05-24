@@ -1,6 +1,6 @@
 # Automad Bulma Theme
 
-A responsive multi-purpose theme for the [Automad](https://automad.org) CMS based on the [Bulma](https://bulma.io) CSS framework. Check out the demo page and all available templates [here](https://bulma.dev.automad.org).
+A responsive multi-purpose _markdown-only_ theme for the [Automad](https://automad.org) CMS based on the [Bulma](https://bulma.io) CSS framework. Check out the demo page and all available templates [here](https://bulma.dev.automad.org).
 
 ![](https://bulma.dev.automad.org/shared/screenshot-1.png)
 
@@ -20,7 +20,7 @@ You can add text or HTML markup to a hero banner using the `textHero` variable. 
 
 ### Hero And Navbar Settings
 
-There are several checkboxes to control the look of the hero section and the navbar. 
+There are several checkboxes to control the look of the hero section and the navbar.
 
 - `logo`: The path to your logo. By default the `/shared/logo*.*` pattern is used.
 - `logoHeight`: Define the height of your logo.
@@ -34,17 +34,19 @@ There are several checkboxes to control the look of the hero section and the nav
 
 You can use the `images` variable to define a set of images to be used in a hero section or carousel slideshow. A `*` can be used in file patterns to represent zero or more characters. Multiple patterns can be separated by a comma. A typical pattern looks like:
 
-    *.jpg, *.png, *.gif 
+    *.jpg, *.png, *.gif
 
 ### Search
-The search field in the navbar can be enabled by defining a page as a results page. Therefore simply enter the internal URL of one of your pages for the `urlSearchResults` variable in the **Shared Data & Settings** section of the Dashboard. Note that the selected page needs to have a template including a pagelist like *Blog* or *Portfolio*.
+
+The search field in the navbar can be enabled by defining a page as a results page. Therefore simply enter the internal URL of one of your pages for the `urlSearchResults` variable in the **Shared Data & Settings** section of the Dashboard. Note that the selected page needs to have a template including a pagelist like _Blog_ or _Portfolio_.
 
 ### Navbar Action Button
+
 To highlight a certain action of your site you can define an internal or external URL for the `urlActionButton`. A primary button will then appear in your navbar.
 
 ### Sorting Pagelists
 
-By default, pagelists are sorted by date descending. You can change that behavior by adding a value for the `sortPages` variable on a blog or portfolio page. To define the sorting of pages in the list, you have to provide a combination of the variable to sort the pages by and a sorting order like `date desc` or `title asc`. 
+By default, pagelists are sorted by date descending. You can change that behavior by adding a value for the `sortPages` variable on a blog or portfolio page. To define the sorting of pages in the list, you have to provide a combination of the variable to sort the pages by and a sorting order like `date desc` or `title asc`.
 
 ### Template Filters
 
