@@ -1,18 +1,21 @@
 {
-	"name": "dahmen/automad-bulma",
-	"description": "A responsive multi-purpose theme for the Automad CMS based on the Bulma CSS framework.",
-	"type": "automad-package",
-	"keywords": ["theme"],
-	"authors": [
-		{
-			"name": "Marc Anton Dahmen",
-			"homepage": "https://marcdahmen.de"
-		}
-	],
-	"license": "MIT",
-	"require": {
-		"automad/package-installer": "^1.1",
-		"components/jquery": "^3.3",
-		"automad/meta-tags": "^1.1 || dev-default"
-	}
+  "name": "dahmen/automad-bulma",
+  "description": "A responsive multi-purpose theme for the Automad CMS based on the Bulma CSS framework.",
+  "type": "automad-package",
+  "keywords": [
+    "theme"
+  ],
+  "authors": [
+    {
+      "name": "Marc Anton Dahmen",
+      "homepage": "https://marcdahmen.de"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "automad/package-installer": "^1.1 || dev-master",
+    "components/jquery": "^3.3",
+    "automad/meta-tags": "^1.1 || dev-master"
+  }
 }
+
