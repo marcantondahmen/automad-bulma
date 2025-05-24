@@ -2,7 +2,7 @@
 
 A responsive multi-purpose _markdown-only_ theme for the [Automad](https://automad.org) CMS based on the [Bulma](https://bulma.io) CSS framework. Check out the demo page and all available templates [here](https://bulma.dev.automad.org).
 
-![](https://bulma.dev.automad.org/shared/screenshot-1.png)
+![](https://raw.githubusercontent.com/marcantondahmen/media-files/master/themes/bulma/bulma-1.webp)
 
 ## Options
 
@@ -16,7 +16,7 @@ Since the theme is fully based on the Bulma framework, it is possible to use a c
 
 You can add text or HTML markup to a hero banner using the `textHero` variable. Hero banner content can be styled using Bulma elements and modifiers. Take a look at the [docs](https://bulma.io/documentation/modifiers/) to find out more about working with Bulma.
 
-![](https://bulma.dev.automad.org/shared/screenshot-2.png)
+![](https://raw.githubusercontent.com/marcantondahmen/media-files/master/themes/bulma/bulma-2.webp)
 
 ### Hero And Navbar Settings
 
