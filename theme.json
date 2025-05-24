@@ -4,7 +4,6 @@
 	"author": "Marc Anton Dahmen",
 	"license": "MIT",
 	"tooltips": {
-		"actionButtonColor": "The color of the action button in the navbar. The following colors can be used: white, light, dark, black, primary, link, info, success, warning or danger",
 		"appleTouchIcon": "The file to be used as Apple touch icon",
 		"bulmaCss": "An optional custom Bulma CSS file",
 		"brand": "The markup or text used for the navbar brand",

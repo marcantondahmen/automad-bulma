@@ -4,9 +4,12 @@
 	<@ snippets/hero.php @>
 	<section class="section">
 		<div class="container">
-			<div class="content center">
-				<section><@ snippets/title.php @></section>
-				@{ +main }	
+			<div class="columns is-8 is-variable">
+				<div class="column is-8 content">
+					<@ snippets/teaser.php @>
+					<br />
+					@{ text | markdown }
+				</div>	
 			</div>
 			<br />
 		</div>

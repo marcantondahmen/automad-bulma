@@ -19,7 +19,7 @@
 				<div class="column is-8">
 					<@ newPagelist { 
 						type: 'children',
-						template: @{ templateFilter }
+						template: @{ templateFilter | def ('profile') }
 					} @>
 					<@ snippets/profiles.php @>
 				</div>
