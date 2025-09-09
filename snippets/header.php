@@ -21,7 +21,7 @@
 	<link rel="stylesheet" href="@{ bulmaCss | def ('/packages/dahmen/automad-bulma/dist/bulma.min.css') }" />
 	<link rel="stylesheet" href="/packages/dahmen/automad-bulma/dist/bulma-carousel.min.css" />
 	<link rel="stylesheet" href="/packages/dahmen/automad-bulma/dist/automad-bulma.css" />
-	<@ if @{ :template | match ('/(blog|post)/') } @>
+	<@ if @{ :template | def(@{ template }) | match ('/(blog|post)/') } @>
 		<link rel="stylesheet" href="/packages/dahmen/automad-bulma/dist/bulma-timeline.min.css" />
 	<@ end @>
 	@{ itemsHeader }
